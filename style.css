@@ -4,14 +4,14 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #F0F2F6;
     width: 1400px;
+    margin: auto;
 }
 
-section{
+/*section{
     padding-left: 50px;
     padding-right: 50px;
-}
+}*/
 
 a {
     color: black;
@@ -62,4 +62,31 @@ nav a:hover {
 .logo-header {
     width: 61.09px;
     height: 19px;
+}
+
+footer {
+    background-color: #F2F2F2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 45px 70px;
+}
+
+.title-footer{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 20px;
+
+}
+
+.link-footer{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+.link-footer:hover{
+    font-weight: 500;
 }
