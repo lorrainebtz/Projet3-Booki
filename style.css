@@ -8,8 +8,9 @@ body {
     margin: auto;
 }
 
-/*section{
-    padding-left: 50px;
+ /*
+section{
+   padding-left: 50px;
     padding-right: 50px;
 }*/
 
@@ -26,6 +27,7 @@ h1{
 h2{
     font-size: 22px;
     font-weight: 700;
+    /*line-height: 25.83px;*/
 }
 
 h3{
@@ -89,4 +91,46 @@ footer {
 
 .link-footer:hover{
     font-weight: 500;
+}
+
+/*
+.grid-activites{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 43px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+}*/
+
+.grid-activites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    
+}
+
+
+.card-activites{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    height: 445px;
+    width: 302px;
+}
+
+.container-activites{
+    /*border-radius: 0 0 20px 20px;*/
+    padding: 20px;
+
+}
+
+.img-activites{
+    border-radius: 20px 20px 0 0;
+    height: 380px;
+    width: 100%;
+    object-fit: none;
 }
