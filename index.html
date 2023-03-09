@@ -11,114 +11,124 @@
         
     </head>
     <body>
-        <header>
-            <nav>
-                <img src="images/logo/Booki.png" alt="logo booki" class="logo-header">
-                <div>
-                    <a href="#">Hébergements</a>
-                    <a href="#">Activités</a>
-                </div>
+        <div class="main-container">
+            <header>
+                <nav>
+                    <img src="images/logo/Booki.png" alt="logo booki" class="logo-header">
+                    <div>
+                        <a href="#">Hébergements</a>
+                        <a href="#">Activités</a>
+                    </div>
 
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre-ville ou en pleine nature</p>
-                <div>
-                    <i class="fa-solid fa-person"> person</i>
-                    <i class="fa-solid fa-heart"> heart</i>
-                    <i class="fa-solid fa-dog"> dog</i>
-                    <i class="fa-solid fa-money-bill-wave"> bill</i>
-                    <i class="fa-solid fa-info"> info</i>
-                    <i class="fa-solid fa-star"> star</i>
-                    <i class="fa-solid fa-chart-line"> chart line</i>
+                </nav>
+            </header>
+            <main>
+                <section class="search">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                    <div>
+                        <i class="fa-solid fa-person"> person</i>
+                        <i class="fa-solid fa-heart"> heart</i>
+                        <i class="fa-solid fa-dog"> dog</i>
+                        <i class="fa-solid fa-money-bill-wave"> bill</i>
+                        <i class="fa-solid fa-info"> info</i>
+                        <i class="fa-solid fa-star"> star</i>
+                        <i class="fa-solid fa-chart-line"> chart line</i>
 
+                    </div>
+                </section>
+                <div class="hebergements-and-populaires">
+                    <section class="hebergements">
+                        <h2>Hébergements à Marseille</h2>
+                        <div class="grid-hebergements">
+                            <div class="card-hebergements">
+                                <img src="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo lits superposés" class="img-hebergements">
+                                <div class="container-hebergements">
+                                    <h3>Auberge La Canebière</h3>
+                                    <p>Nuit à partir de 25€</p>
+                                    <ul>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="populaires">
+                        <div class="populaires-title">
+                            <h2 class="section-title">Les plus populaires</h2>
+                            <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                        </div>
+                        <div class="populaires-cards">
+                            <div class="card" >
+                                <img src="images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo chambre hotel verte">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel Le soleil du matin</h3>
+                                        <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
+                                    </div>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutralStar" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </section>
-            <section class="hebergements-populaires">
-                <div class="encart-hebergements">
-                    <h2>Hébergements à Marseille</h2>
-                    <div class="grid-hebergements">
-                        <div class="card-hebergements">
-                            <img src="images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo lits superposés" class="img-hebergements">
-                            <div class="container-hebergements">
-                                <h3>Auberge La Canebière</h3>
-                                <p>Nuit à partir de 25€</p>
-                                <ul>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </ul>
+                <section class="activites">
+                    <h2>Activités à Marseille</h2>
+                    <div class="grid-activites">
+                        <div class="card-activites">
+                            <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du port de marseille" class="img-activites">
+                            <div class="container-activites">
+                                <h3>Vieux-Port</h3>
+                            </div>
+                        </div>
+                        <div class="card-activites">
+                            <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du fort de pomegues" class="img-activites">
+                            <div class="container-activites">
+                                <h3>Fort de Pomègues</h3>
+                            </div>
+                        </div>
+                        <div class="card-activites">
+                            <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo de la cote" class="img-activites">
+                            <div class="container-activites">
+                                <h3>Parc national des Calanques</h3>
+                            </div>
+                        </div>
+                        <div class="card-activites">
+                            <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de notre dame qui surplombe la ville" class="img-activites">
+                            <div class="container-activites">
+                                <h3>Notre-Dame-de-la-Garde</h3>
                             </div>
                         </div>
                     </div>
+                </section>      
+            </main>
+            <footer>
+                <div>
+                    <p class="title-footer">À propos</p>
+                    <a href="#" class="link-footer">Fonctionnement du site</a>
+                    <a href="#" class="link-footer">Conditions générales</a>
+                    <a href="#" class="link-footer">Données et confidentialité</a>
                 </div>
-                <aside class="encart-populaires">
-                    <h2>Les plus populaires</h2>
-                    <div class="grid-populaires">
-                        <div class="card-populaires" >
-                            <img src="images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo chambre hotel verte" class="img-populaires">
-                            <div class="container-populaires">
-                                <h3>Hôtel Le soleil du matin</h3>
-                                <p>Nuit à partir de 128€</p>
-                                <ul>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </aside>
-            </section>
-            <section class="activites">
-                <h2>Activités à Marseille</h2>
-                <div class="grid-activites">
-                    <div class="card-activites">
-                        <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo du port de marseille" class="img-activites">
-                        <div class="container-activites">
-                            <h3>Vieux-Port</h3>
-                        </div>
-                    </div>
-                    <div class="card-activites">
-                        <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du fort de pomegues" class="img-activites">
-                        <div class="container-activites">
-                            <h3>Fort de Pomègues</h3>
-                        </div>
-                    </div>
-                    <div class="card-activites">
-                        <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo de la cote" class="img-activites">
-                        <div class="container-activites">
-                            <h3>Parc national des Calanques</h3>
-                        </div>
-                    </div>
-                    <div class="card-activites">
-                        <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de notre dame qui surplombe la ville" class="img-activites">
-                        <div class="container-activites">
-                            <h3>Notre-Dame-de-la-Garde</h3>
-                        </div>
-                    </div>
+                <div>
+                    <p class="title-footer">Nos hébergements</p>
+                    <a href="#" class="link-footer">Charte qualité</a>
+                    <a href="#" class="link-footer">Proposer votre hôtel</a>
                 </div>
-            </section>      
-        </main>
-        <footer>
-            <div>
-                <p class="title-footer">À propos</p>
-                <a href="#" class="link-footer">Fonctionnement du site</a>
-                <a href="#" class="link-footer">Conditions générales</a>
-                <a href="#" class="link-footer">Données et confidentialité</a>
-            </div>
-            <div>
-                <p class="title-footer">Nos hébergements</p>
-                <a href="#" class="link-footer">Charte qualité</a>
-                <a href="#" class="link-footer">Proposer votre hôtel</a>
-            </div>
-            <div>
-                <p class="title-footer">Assistance</p>
-                <a href="#" class="link-footer">Centre d’aide</a>
-                <a href="#" class="link-footer">Nous contacter</a>
-            </div>
-        </footer>
+                <div>
+                    <p class="title-footer">Assistance</p>
+                    <a href="#" class="link-footer">Centre d’aide</a>
+                    <a href="#" class="link-footer">Nous contacter</a>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
