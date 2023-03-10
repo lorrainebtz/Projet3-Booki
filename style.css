@@ -12,6 +12,7 @@
     color: var(--main-color);
 }
 
+
 .neutralStar {
     color: var(--main-bg-color)
 }
@@ -28,10 +29,7 @@ body {
     box-sizing: border-box;
 }
 
-section{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+
 
 a {
     color: black;
@@ -107,6 +105,7 @@ header nav {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .hebergements-and-populaires section {
@@ -237,6 +236,7 @@ header nav {
 .activites{
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 65px;
 }
 
 
@@ -317,6 +317,60 @@ footer {
 }
 
 /*********************************Recherche*************************************/
+.recherche{
+    margin-bottom: 37px;
+}
+
+.indications{
+    margin-top: -10px;
+}
+
+.form-recherche{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icon-location {
+    background-color: var(--main-bg-color);
+    border-radius: 15px 0 0 15px;
+    padding: 17px 24px;
+}
+
+.fa-location-dot{
+    color:black;
+}
+
+input {
+    padding: 15px 16px;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+input[type="text"] {
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    border-right: none;
+    border-left: none;
+
+}
+
+
+input[type="submit"]{
+    border-radius: 0 15px 15px 0;
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid var(--main-color);
+}
+
+input[type="submit"] value {
+    color: white;
+}
+
+
+
 
 .filtres{
     display: flex;
@@ -324,6 +378,29 @@ footer {
     justify-content: start;
     align-items: center;
 }
+
+
+
+/******************************** help ********************/
+
+/*
+.filtre {
+    background-color: red;
+}
+*/
+
+/*
+.filtre:hover {
+    background-color: yellow;
+}
+*/
+
+/*
+.filtres a:hover {
+        background-color: black ;
+}
+*/
+
 
 .filtres p{
     font-weight: 700;
@@ -337,16 +414,28 @@ footer {
     gap:10px;  
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    padding-left: 19px;
-    padding-right:19px;
     margin-left: 10px;
+    padding: 10px 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 .filtre p{
     margin: 0;
     font-weight: 700;
     font-size: 17px;
-    padding-top: 4px;
-    padding-bottom:4px;
-    line-height: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info p{
+    font-weight: 400;
+    font-size: 16px;
 }

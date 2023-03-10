@@ -25,13 +25,24 @@
             <main>
                 <section class="recherche">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre-ville ou en pleine nature</p>
+                    <p class="indications">En plein centre-ville ou en pleine nature</p>
+                    <div class="form-recherche">
+                        <div class="icon-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <form action="" method="get">
+                            <input type="text" name="city" id="city">
+                            <input type="submit" value="Rechercher">
+                        </form>
+                    </div>
                     <div class="filtres">
                         <p>Filtres</p>
-                        <div class="filtre">
-                            <i class="fa-solid fa-money-bill-wave"></i>
-                            <p>Économique</p>
-                        </div>
+                        <a href="#" class="btn-filtres">  
+                            <div class="filtre">
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                                <p>Économique</p>
+                            </div>
+                        </a> 
                         <div class="filtre">
                             <i class="fa-solid fa-person"></i>
                             <p>Familial</p>
@@ -46,24 +57,64 @@
                         </div>
                     </div>
                     <div class="info">
-                        <div class="info-bulle">
-                            <i class="fa-solid fa-star"></i>
-                        </div>
+                        <i class="fa-solid fa-circle-info"></i>
                         <p>Plus de 500 logements sont disponibles dans cette ville</p>
-
                     </div>
-                    
-
                 </section>
                 <div class="hebergements-and-populaires">
                     <section class="hebergements">
                         <h2>Hébergements à Marseille</h2>
                         <div class="hebergements-cards">
                             <div class="card">
-                                <img src="images/hebergements/marcus-loke.jpg" alt="photo lits superposés">
+                                <img src="images/hebergements/fred-kleber.jpg" alt="photo lits superposés">
                                 <div class="card-content">
-                                    <h3 class="card-title">Auberge La Canebière</h3>
-                                    <p class="card-subtitle">Nuit à partir de 25€</p>
+                                    <h3 class="card-title">Hôtel du port</h3>
+                                    <p class="card-subtitle">Nuit à partir de 52€</p>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutralStar" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/hebergements/febrian-zakaria.jpg" alt="photo lits superposés">
+                                <div class="card-content">
+                                    <h3 class="card-title">Hôtel chez Amina</h3>
+                                    <p class="card-subtitle">Nuit à partir de 96€</p>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutralStar" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/hebergements/reisetopia.jpg" alt="photo lits superposés">
+                                <div class="card-content">
+                                    <h3 class="card-title">Hôtel Les mouettes</h3>
+                                    <p class="card-subtitle">Nuit à partir de 76€</p>
+                                    <div class="card-rating">
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                        <i class="fa-xs fa-solid fa-star neutralStar" aria-hidden="true"></i>
+                                        <span class="sr-only">Note de 4 sur 5</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/hebergements/annie-spratt.jpg" alt="photo lits superposés">
+                                <div class="card-content">
+                                    <h3 class="card-title">Hôtel de la mer</h3>
+                                    <p class="card-subtitle">Nuit à partir de 46€</p>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -90,55 +141,10 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <img src="images/hebergements/marcus-loke.jpg" alt="photo lits superposés">
+                                <img src="images/hebergements/nicate-lee.jpg" alt="photo lits superposés">
                                 <div class="card-content">
-                                    <h3 class="card-title">Auberge La Canebière</h3>
-                                    <p class="card-subtitle">Nuit à partir de 25€</p>
-                                    <div class="card-rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutralStar" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="images/hebergements/marcus-loke.jpg" alt="photo lits superposés">
-                                <div class="card-content">
-                                    <h3 class="card-title">Auberge La Canebière</h3>
-                                    <p class="card-subtitle">Nuit à partir de 25€</p>
-                                    <div class="card-rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutralStar" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="images/hebergements/marcus-loke.jpg" alt="photo lits superposés">
-                                <div class="card-content">
-                                    <h3 class="card-title">Auberge La Canebière</h3>
-                                    <p class="card-subtitle">Nuit à partir de 25€</p>
-                                    <div class="card-rating">
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                                        <i class="fa-xs fa-solid fa-star neutralStar" aria-hidden="true"></i>
-                                        <span class="sr-only">Note de 4 sur 5</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="images/hebergements/marcus-loke.jpg" alt="photo lits superposés">
-                                <div class="card-content">
-                                    <h3 class="card-title">Auberge La Canebière</h3>
-                                    <p class="card-subtitle">Nuit à partir de 25€</p>
+                                    <h3 class="card-title">Auberge Le Panier</h3>
+                                    <p class="card-subtitle">Nuit à partir de 23€</p>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
