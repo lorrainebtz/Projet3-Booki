@@ -25,6 +25,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 1024px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -102,13 +103,13 @@ header nav {
 /**********************************  Hebergements and populaires ***********************************/
 
 
-.hebergements-and-populaires {
+#hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
 }
 
-.hebergements-and-populaires section {
+#hebergements-and-populaires section {
     border-radius: 20px;
     background-color: var(--main-bg-color);
     padding: 30px;
@@ -191,6 +192,7 @@ header nav {
 
 .hebergements .card{
     width: 29%;
+    /* height: 220px; */
     margin-top: 30px;
 }
 
@@ -233,7 +235,7 @@ header nav {
 
 /****************************************** activities ******************************************/
 
-.activites{
+#activites{
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 65px;
@@ -260,6 +262,7 @@ header nav {
     width: 23%;
     padding: 0px;
     margin-top: 30px;
+    /* height: 400px; */
 }
 
 .activites-cards .card-content{
@@ -278,9 +281,7 @@ footer {
     background-color: var(--main-bg-color);
     padding: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    
+    flex-wrap: wrap;
 }
 
 .menu-footer {
@@ -325,17 +326,22 @@ footer {
     margin-top: -10px;
 }
 
-.form-recherche{
+
+form {
     display: flex;
-    align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    height: 49px;
 }
 
-.icon-location {
+.icon-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--main-bg-color);
     border-radius: 15px 0 0 15px;
-    padding: 17px 24px;
+    width: 50px;
+    border: 1px solid var(--main-bg-color);
 }
 
 .fa-location-dot{
@@ -344,7 +350,6 @@ footer {
 
 input {
     padding: 15px 16px;
-
     font-size: 18px;
     font-weight: 700;
 }
@@ -354,7 +359,7 @@ input[type="text"] {
     border-bottom: 1px solid #F2F2F2;
     border-right: none;
     border-left: none;
-
+    outline: none;
 }
 
 
@@ -365,11 +370,6 @@ input[type="submit"]{
     border: 1px solid var(--main-color);
 }
 
-input[type="submit"] value {
-    color: white;
-}
-
-
 
 
 .filtres{
@@ -377,29 +377,8 @@ input[type="submit"] value {
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    gap: 15px;
 }
-
-
-
-/******************************** help ********************/
-
-/*
-.filtre {
-    background-color: red;
-}
-*/
-
-/*
-.filtre:hover {
-    background-color: yellow;
-}
-*/
-
-/*
-.filtres a:hover {
-        background-color: black ;
-}
-*/
 
 
 .filtres p{
@@ -414,11 +393,12 @@ input[type="submit"] value {
     gap:10px;  
     border: 2px solid #D9D9D9;
     border-radius: 25px;
-    margin-left: 10px;
     padding: 10px 19px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 
+}
+
+.filtre:hover {
+    background-color: #DEEBFF;
 }
 
 .filtre p{
