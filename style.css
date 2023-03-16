@@ -242,14 +242,11 @@ input[type="submit"]{
     justify-content: space-between;
     align-items: stretch;
     flex-wrap: wrap; 
-
-
 } 
 
 
 .hebergements .card{
     width: 29%;
-    /* height: 220px; */
     margin-top: 30px;
 }
 
