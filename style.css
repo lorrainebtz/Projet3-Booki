@@ -240,8 +240,9 @@ input[type="submit"]{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap; 
+
 
 } 
 
@@ -363,8 +364,8 @@ input[type="submit"]{
 
 .activites-cards img{
     border-radius: 20px 20px 0 0;
-    height: 380px;
     width: 100%;
+    height: min(25vw,380px);
 }
 
 
